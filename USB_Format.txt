@@ -1,0 +1,20 @@
+------------------------How to format USB drive------------------------
+
+
+1. Open cmd
+
+2. C:\Users\Setubhatt> diskpart
+
+3. DISKPART> list disk
+
+4. DISKPART > select disk 2 (Make sure to select USB drive)
+
+5. DISKPART > clean
+
+6. DISKPART > create partition primary
+
+7. DISKPART > active
+
+8. DISKPART > format fs=fat32 (It might take few minutes )
+
+9. DISKPART > exit
